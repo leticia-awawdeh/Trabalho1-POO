@@ -5,11 +5,11 @@ class Professor extends Cliente{
 
     @Override
     public int getMaxLivros() {
-        return 0;
+        return 10;
     }
 
     @Override
     public int getPrazoEmprestimo() {
-        return 0;
+        return 90;
     }
 }

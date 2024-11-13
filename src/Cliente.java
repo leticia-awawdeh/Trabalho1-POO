@@ -61,5 +61,9 @@ public abstract class Cliente {
         this.multaPendente = multaPendente;
     }
 
+    public boolean podeEmprestar(){
+        return livrosEmprestados.size() < getMaxLivros() && multaPendente == 0;
+    }
+
 
 }

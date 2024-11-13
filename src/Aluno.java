@@ -5,11 +5,11 @@ class Aluno extends Cliente{
 
     @Override
     public int getMaxLivros() {
-        return 0;
+        return 3;
     }
 
     @Override
     public int getPrazoEmprestimo() {
-        return 0;
+        return 5;
     }
 }
