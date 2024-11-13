@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d8e7f94-2455-418c-b325-8990c88172af" name="Changes" comment="Adicionando o esqueleto da parte de cadastro de pessoas" />
+    <list default="true" id="2d8e7f94-2455-418c-b325-8990c88172af" name="Changes" comment="Adicionado as subclasses Aluno e professor" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,20 +13,29 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {}
+}]]></component>
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="dbf89df8-af34-45e3-b6b7-70d8c9b99d1c" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/leticia-awawdeh/Trabalho1-POO.git",
+    "accountId": "dbf89df8-af34-45e3-b6b7-70d8c9b99d1c"
+  }
 }]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2olt9gaTSp7uuUsKyInddrjmlDe" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -38,9 +47,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "settings.editor.selected.configurable": "project.propVCSSupport.CommitDialog"
+    "last_opened_file_path": "/home/leticia/Documentos/Trabalho1-POO",
+    "settings.editor.selected.configurable": "vcs.Git"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -60,7 +71,39 @@
       <option name="project" value="LOCAL" />
       <updated>1731456878916</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Adicionando o esqueleto da parte de cadastro de pessoas">
+      <option name="closed" value="true" />
+      <created>1731457623731</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1731457623731</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Adicionando o esqueleto da parte de cadastro de pessoas">
+      <option name="closed" value="true" />
+      <created>1731457631650</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1731457631650</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Adicionado as subclasses Aluno e professor">
+      <option name="closed" value="true" />
+      <created>1731462856514</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1731462856514</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Adicionado as subclasses Aluno e professor">
+      <option name="closed" value="true" />
+      <created>1731463029919</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1731463029919</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -76,6 +119,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adicionando o esqueleto da parte de cadastro de pessoas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adicionando o esqueleto da parte de cadastro de pessoas" />
+    <MESSAGE value="Adicionado as subclasses Aluno e professor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adicionado as subclasses Aluno e professor" />
   </component>
 </project>
