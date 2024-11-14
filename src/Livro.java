@@ -1,17 +1,17 @@
 
 public class Livro {
-	String titulo;
+	private String titulo;
 	String autor;
 	Generos genero;
-	int anoPubli;
-	int numExemplares;
+	int anoPublicacao;
+	private int numExemplares;
 
 	//enum criado separado
 	public Livro(String titulo,String autor,Generos genero,int anoPubli ,int numExemplares) {
 		this.titulo = titulo;
         this.autor = autor;
         this.genero = genero;
-        this.anoPubli = anoPubli;
+        this.anoPublicacao = anoPubli;
         this.numExemplares =numExemplares;
 		
 	}
@@ -48,10 +48,10 @@ public class Livro {
 	    	  this.genero=genero;
 	    }
 	    public int getAnoPubli() {
-	        return anoPubli;
+	        return anoPublicacao;
 	    }
-	    public void SetAnoPubli(int anoPubli) {
-	    	this.anoPubli=anoPubli;
+	    public void SetAnoPubli(int anoPublicacao) {
+	    	this.anoPublicacao=anoPublicacao;
 	    }
 	    public int getNumExemplares() {
 	        return numExemplares;
