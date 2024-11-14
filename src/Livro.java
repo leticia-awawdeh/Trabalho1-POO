@@ -53,10 +53,11 @@ public class Livro {
 	    public void SetAnoPubli(int anoPublicacao) {
 	    	this.anoPublicacao=anoPublicacao;
 	    }
+	    
 	    public int getNumExemplares() {
 	        return numExemplares;
 	    }
-	    public void SetNumExemplares(int numExemplares){
-	    	this.numExemplares=numExemplares;
+	    public void SetNumExemplares(int exemplaresDisponiveis){
+	    	this.numExemplares=exemplaresDisponiveis;
 	    }
 	}
