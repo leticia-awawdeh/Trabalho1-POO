@@ -6,7 +6,7 @@ public class Livro {
 	int anoPubli;
 	int numExemplares;
 
-	
+	//enum criado separado
 	public Livro(String titulo,String autor,Generos genero,int anoPubli ,int numExemplares) {
 		this.titulo = titulo;
         this.autor = autor;
@@ -26,6 +26,7 @@ public class Livro {
         }
     }
 
+	//set and get area
 	 public String getTitulo() {
 	        return titulo;
 	    }
