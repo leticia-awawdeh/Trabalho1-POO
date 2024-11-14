@@ -1,5 +1,3 @@
-package teste;
-
 import java.util.ArrayList;
 
 public class CadastroLivros {
