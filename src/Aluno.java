@@ -1,4 +1,4 @@
-class Aluno extends Cliente{
+public class Aluno extends Cliente{
     public Aluno(String nome, String cpf){
         super(nome, cpf, TipoCliente.ALUNO);
     }
@@ -11,5 +11,10 @@ class Aluno extends Cliente{
     @Override
     public int getPrazoEmprestimo() {
         return 5;
+    }
+
+    @Override
+    public double getValorMulta(){
+        return 2.0;
     }
 }

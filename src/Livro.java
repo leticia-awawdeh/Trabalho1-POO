@@ -1,3 +1,4 @@
+import java.time.LocalDate;
 
 public class Livro {
 	private String titulo;
@@ -12,19 +13,23 @@ public class Livro {
         this.autor = autor;
         this.genero = genero;
         this.anoPublicacao = anoPubli;
-        this.numExemplares =numExemplares;
+        this.numExemplares = numExemplares;
 		
 	}
 
-	public boolean emprestar(int quantidadeEmprestada) {
-        if (this.numExemplares >= quantidadeEmprestada) {
-            this.SetNumExemplares(this.getNumExemplares() - quantidadeEmprestada);
-            return true;
-        } else {
-            System.out.println("Não há exemplares disponíveis para o livro: " + titulo);
-            return false;
-        }
-    }
+	public boolean emprestar() {
+		if (this.numExemplares > 0) {
+			this.numExemplares--;
+			return true;
+		} else {
+			System.out.println("Não há exemplares disponíveis para o livro: " + titulo);
+			return false;
+		}
+	}
+
+	public void devolver() {
+		this.numExemplares++;
+	}
 
 	//set and get area
 	 public String getTitulo() {
@@ -33,20 +38,21 @@ public class Livro {
 	 public void setTitulo(String titulo) {
 	        this.titulo = titulo;
 	    }
+
 	    public String getAutor() {
 	        return autor;
 	    }
-	    public void setAutor(String autor)
-	    {
+	    public void setAutor(String autor) {
 	    	  this.autor=autor;
 	    }
+
 	    public Generos getGenero() {
 	        return genero;
 	    }
-	    public void setGenero(Generos genero)
-	    {
+	    public void setGenero(Generos genero) {
 	    	  this.genero=genero;
 	    }
+
 	    public int getAnoPubli() {
 	        return anoPublicacao;
 	    }
@@ -57,7 +63,7 @@ public class Livro {
 	    public int getNumExemplares() {
 	        return numExemplares;
 	    }
-	    public void SetNumExemplares(int exemplaresDisponiveis){
+	    public void setNumExemplares(int exemplaresDisponiveis){
 	    	this.numExemplares=exemplaresDisponiveis;
 	    }
 	}
